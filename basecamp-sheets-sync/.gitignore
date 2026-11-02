@@ -1,0 +1,26 @@
+# clasp: your personal project link (copy .clasp.json.example to create it)
+.clasp.json
+.clasprc.json
+
+# Secrets - NEVER commit any of these. Credentials belong in Apps Script
+# "Script Properties", not in files.
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+token*.json
+secrets*
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

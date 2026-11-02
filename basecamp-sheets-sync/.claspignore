@@ -1,0 +1,5 @@
+# Only these files are pushed to Apps Script by `clasp push`
+# (patterns are relative to rootDir = src/)
+**/**
+!Code.gs
+!appsscript.json
